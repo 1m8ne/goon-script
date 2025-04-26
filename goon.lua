@@ -106,7 +106,7 @@ title.Parent = mainFrame
 local closeButton = Instance.new("TextButton")
 closeButton.Size = UDim2.new(0, 30, 0, 30)
 closeButton.Position = UDim2.new(1, -40, 0, 0)
-closeButton.BackgroundColor3 = Color3.fromRGB(255, 100, 100) -- Red
+closeButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red
 closeButton.Text = "X"
 closeButton.Font = Enum.Font.SourceSansBold
 closeButton.TextSize = 20
@@ -125,7 +125,7 @@ end)
 local minimizeButton = Instance.new("TextButton")
 minimizeButton.Size = UDim2.new(0, 30, 0, 30)
 minimizeButton.Position = UDim2.new(1, -80, 0, 0)
-minimizeButton.BackgroundColor3 = Color3.fromRGB(255, 200, 0) -- Orange
+minimizeButton.BackgroundColor3 = Color3.fromRGB(186, 142, 35) -- Orange
 minimizeButton.Text = "-"
 minimizeButton.Font = Enum.Font.SourceSansBold
 minimizeButton.TextSize = 20
