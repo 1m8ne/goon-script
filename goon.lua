@@ -2,6 +2,8 @@ local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local isR6 = character:FindFirstChild("Torso") ~= nil
 
+
+
 -- Notification Function
 local function showNotification(message)
     local notificationGui = Instance.new("ScreenGui")
@@ -67,9 +69,9 @@ end
 
 -- Show notification based on rig type
 if isR6 then
-    showNotification("You are R6.")
+    showNotification("You are R6!")
 else
-    showNotification("You are R15.")
+    showNotification("You are R15!")
 end
 
 -- Create Screen GUI
@@ -148,10 +150,10 @@ end)
 
 -- Scrolling Frame
 local scrollingFrame = Instance.new("ScrollingFrame")
-scrollingFrame.Size = UDim2.new(1, -20, 1, -50)
+scrollingFrame.Size = UDim2.new(1, -30, 1, -50)
 scrollingFrame.Position = UDim2.new(0, 10, 0, 40)
 scrollingFrame.BackgroundTransparency = 1
-scrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 300)
+scrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 50)
 scrollingFrame.ScrollBarThickness = 0
 scrollingFrame.Parent = mainFrame
 
